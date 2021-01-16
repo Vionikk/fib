@@ -9,4 +9,4 @@ def fib(n):
 count = int(input("How many Fibonacci numbers you want?: "))
 
 for x in range(0, count):
-    print(fib(x))
+    print(":", x+1,":", fib(x))
